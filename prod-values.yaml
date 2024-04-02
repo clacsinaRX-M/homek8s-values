@@ -1,0 +1,11 @@
+argocd:
+  destination:
+    server: https://kubernetes.default.svc
+
+istio:
+  namespace: istio-system
+  version: 1.20.0
+
+metallb: {}
+
+longhorn: {}
